@@ -1,0 +1,10 @@
+let miNombre = "Diego";
+let miApellido = "Quesada";
+let estudiante = miNombre + " " + miApellido;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let estudianteSize = estudiante.length;
+let primeraLetra = miNombre.charAt(0);
+let ultimaLetra = miApellido.charAt(miApellido.length -1);
+let sinEspacios = estudiante.replace(" ", "");
+let existeNombre = estudiante.includes("Diego");
